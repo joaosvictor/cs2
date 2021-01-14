@@ -13,4 +13,19 @@ Import Tkinter
 import tkinter as tk
 from tkinter import filedialog
 ```
- 
+
+Tkinter
+* https://docs.python.org/3/library/tk.html
+* tkinter module -- https://docs.python.org/3/library/tkinter.html#tkinter-modules
+
+PIL
+* https://pillow.readthedocs.io/en/stable/
+* image module -- https://pillow.readthedocs.io/en/stable/reference/Image.html
+
+- Work to be done
+ * Make the CS2
+ * Compress all the images into numpy matrix
+ * After all create the jpg -> png
+ * Add a couple of images 
+ * Create a README with the images 
+
