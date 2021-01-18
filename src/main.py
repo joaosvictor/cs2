@@ -13,6 +13,7 @@ label1 = tk.Label(root, text='CS2', bg = 'azure3')
 label1.config(font=('helvetica', 20))
 canvas1.create_window(150, 60, window=label1)
 
+# do on the contrary
 def getPNG ():
     global im1
     
