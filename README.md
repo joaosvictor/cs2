@@ -24,5 +24,5 @@ PIL
 
 ### Work to be done:
  * After all create the jpg -> png
- * Add a couple of images 
+ * Add a couple of images jpg and png 
 
