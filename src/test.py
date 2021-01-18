@@ -1,3 +1,4 @@
+'''
 #!/usr/bin/env python3
 import tkinter as tk 
 from PIL import Image
@@ -8,3 +9,4 @@ greeting = tk.Label(text="Tkinter Test")
 greeting.pack()
 
 window.mainloop()
+'''
