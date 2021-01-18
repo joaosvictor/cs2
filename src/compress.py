@@ -2,4 +2,6 @@ import math
 import numpy as np 
 np.set_printoptions(suppress=True)
 
-np
+# TODO = get the matrix angle and compress into a numpy matrix
+
+print(np.random.rand(5,5))
