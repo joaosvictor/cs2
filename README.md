@@ -23,9 +23,6 @@ PIL
 * image module -- https://pillow.readthedocs.io/en/stable/reference/Image.html
 
 ### Work to be done:
- * improve the CS2
- * Compress all the images into numpy matrix
  * After all create the jpg -> png
  * Add a couple of images 
- * Create a README with the images 
 
