@@ -4,8 +4,10 @@ from tkinter import filedialog
 from tkinter import messagebox
 from PIL import Image
 
+# the TK kit in one variable
 root= tk.Tk()
 
+# frame
 canvas1 = tk.Canvas(root, width = 300, height = 250, bg = 'azure3', relief = 'raised')
 canvas1.pack()
 
@@ -13,7 +15,7 @@ label1 = tk.Label(root, text='CS2', bg = 'azure3')
 label1.config(font=('helvetica', 20))
 canvas1.create_window(150, 60, window=label1)
 
-# do on the contrary
+# get through
 def getPNG ():
     global im1
     
@@ -23,6 +25,7 @@ def getPNG ():
 browseButton_PNG = tk.Button(text="      Import PNG File     ", command=getPNG, bg='SkyBlue4', fg='white', font=('helvetica', 12, 'bold'))
 canvas1.create_window(150, 130, window=browseButton_PNG)
 
+# convert 
 def convertToJPG ():
     global im1
     
